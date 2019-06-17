@@ -13,7 +13,7 @@ php bin/magento setup:di:compile
 ###
 Install with composer
 ```
-composer require krishaweb/feedback
+composer require krishaweb/rememberfilter
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 ```
