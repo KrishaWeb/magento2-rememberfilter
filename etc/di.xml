@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--
+ ~ @author Krishaweb Team
+ ~ @package Krishaweb_AdvanceFilter
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Catalog\Model\Layer\Filter\Item" type="Krishaweb\AdvanceFilter\Model\Rewrite\Layer\Filter\Item" />
+    <preference for="Magento\Swatches\Block\LayeredNavigation\RenderLayered" type="Krishaweb\AdvanceFilter\Block\Rewrite\LayeredNavigation\RenderLayered" />
+    <preference for="Magento\LayeredNavigation\Block\Navigation\State" type="Krishaweb\AdvanceFilter\Block\Rewrite\Navigation\State" />
+</config>

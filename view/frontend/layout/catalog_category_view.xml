@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+ ~ @author Krishaweb Team
+ ~ @package Krishaweb_AdvanceFilter
+   Override Top menu
+   add new custom block and disable cache for that, so whole page cache will be disabled
+ -->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<body>
+		<referenceBlock name="category.products.list">
+             <block class="Magento\Framework\View\Element\Text" cacheable="false" /> 
+        </referenceBlock>
+    </body>
+</page>

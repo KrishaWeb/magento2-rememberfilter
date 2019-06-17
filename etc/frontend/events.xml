@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--
+ ~ @author Krishaweb Team
+ ~ @package Krishaweb_AdvanceFilter
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="controller_action_predispatch">
+        <observer name="krishaweb_advancefilter_save_size" instance="Krishaweb\AdvanceFilter\Observer\SaveSize" />
+    </event>
+</config>
